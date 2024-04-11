@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+, initial-scale=1.0">
+    <title>Contact Form Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            background-color: rgba(0, 156, 246, 1);
+        }
+       
+    </style>
+</head>
+
+<body >
+    <div class="wrapper h-full flex flex-col justify-around items-center my-auto md:flex-row">
+        <div class="leftside w-1/3 h-full  flex items-center justify-around">
+            <ion-icon name="mail-outline" ></ion-icon>         <img src="mail-animation.gif" alt="mailgif" class="text-7xl text-purple-400">
+        </div>
+        <div class="rightside md:w-1/2 w-full h-[500px] flex justify-around items-center flex-col my-10 px-10">
+
+            <h1 class=" m-3 text-white capitalize font-bold text-4xl md:text-5xl">Get in touch</h1>
+            <form action="#" class="flex justify-around items-start flex-col">
+                <input type="text" placeholder="Name" class="px-4 py-1 outline-none my-[10px] rounded-2xl text-[18px] w-full">
+                
+                <input type="email" name="email" id="email" placeholder="Email" class="px-4 py-1 outline-none my-[10px] rounded-2xl text-[18px]  w-full">
+                <input type="text" name="sub" id="sub" placeholder="subject" class="px-4 py-1 outline-none my-[10px] rounded-2xl text-[18px]  w-full">
+                <textarea name="msg" id="msg" cols="30" rows="3" placeholder="Message" class="px-4 py-1 outline-none my-[10px] rounded-2xl text-[18px]  w-full"></textarea>
+                <button type="submit" class="outline-none font-bold uppercase bg-black hover:bg-transparent duration px-10 text-white py-2 rounded-xl cursor-pointer hover:border-2 border-white duration-100 border-transparent">Send mail <ion-icon name="arrow-forward-outline"></ion-icon></button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
